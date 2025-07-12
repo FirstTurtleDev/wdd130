@@ -21,3 +21,18 @@ footer {
   border-top: 2px solid #aaa;
   text-align: center;
 }
+nav {
+  background-color: #eee;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: #333;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+
