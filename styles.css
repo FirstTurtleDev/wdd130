@@ -1,0 +1,23 @@
+main{
+    max-width: 840px;
+}
+aside {
+  width: 250px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f0f0f0; /* Light background */
+  color: #333;               /* Dark text for contrast */
+}
+aside img {
+  width: 200px;
+  height: auto;
+}
+p {
+  padding: 0;
+}
+footer {
+  margin-top: 30px;
+  border-top: 2px solid #aaa;
+  text-align: center;
+}
