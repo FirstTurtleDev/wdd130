@@ -1,0 +1,138 @@
+:root {
+  --primary-color: #264653;       /* Dark teal/navy */
+  --accent1-color: #2a9d8f;       /* Cool green */
+  --accent2-color: #e9c46a;       /* Gold */
+  --accent3-color: #f4a261;       /* Orange-peach */
+  --heading-font: 'Bebas Neue', sans-serif;
+  --body-font: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  font-family: var(--heading-font);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 16px;
+  color: rgb(66, 49, 124);
+}
+
+.images-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.socialmedia{
+  display: flex;
+  align-items: center;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--primary-color);
+  background-color: #c0f5ef;
+  overflow-x: hidden;
+}
+.logo{
+  position: absolute;
+  z-index: 100;
+  background-color: transparent;
+  width: 75px;
+}
+
+header, main, footer {
+  width: 840px;
+  margin: 0px;
+  width: 100%;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #45849c;
+  margin: 0px;
+  padding: 8px;
+  width: 100%;
+  height: 50px;
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Position h1 and article absolutely over the hero image */
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.9;
+  background-color: var(--accent2-color); /* gold */
+  color: var(--primary-color);           /* dark teal */
+  font-family: var(--heading-font);
+  z-index: 2;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 5%;
+  right: 5%;
+  background-color: rgba(38, 70, 83, 0.8); /* var(--primary-color) with opacity */
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+  z-index: 2;
+}
+
+/* Float the hero article image to the right */
+.hero article img {
+  float: right;
+  width: 125px;
+  margin-left: 16px;
+  border-radius: 8px;
+}
+
+h2{
+  margin: 8px;
+  margin-bottom: 15px;
+}
+.icon{
+  width: 30px;
+  padding: 0px;
+  margin: 0px;
+}
