@@ -26,17 +26,24 @@ a{
 
 .images-container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  
+  justify-content: center;
+  width: max-content;
+  overflow: hidden;
+  gap: 10px;
 }
-
+.last-images{
+  width: 18lvw;
+}
 .socialmedia{
   display: flex;
   align-items: center;
 }
 
 body {
+
+  align-items: center;
   font-family: var(--body-font);
   color: var(--primary-color);
   background-color: #c0f5ef;
