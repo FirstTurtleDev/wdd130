@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse our whitewater rafting trips with difficulty, duration, and pricing. Compare options and contact us to reserve.">
+  <meta name="author" content="Alejandro Vanderhorst">
+  <title>Whitewater Rafting Co. | Trips</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="images/my_logo.png" alt="Rafting Site Logo" class="logo">
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  
+<main id="main-content" class="trips">
+  <header class="page-header">
+    <h1>Trips</h1>
+    <p>Pick your adventure—compare difficulty, duration, and pricing. Have questions? We’re here to help.</p>
+    <a class="btn btn--primary" href="contact.html">Ask About Availability</a>
+  </header>
+
+  <section class="trips__grid" aria-label="Featured trips">
+    <article class="trip card">
+      <img src="images/trip-canyon.jpg" alt="Rafting through canyon walls" width="800" height="500" />
+      <div class="card__body">
+        <h2>Sunset Canyon Run</h2>
+        <ul class="trip__facts">
+          <li><strong>Difficulty:</strong> Class II–III</li>
+          <li><strong>Duration:</strong> 3 hours</li>
+          <li><strong>Price:</strong> $85 / person</li>
+        </ul>
+        <a class="btn btn--accent" href="contact.html">Reserve this Trip</a>
+      </div>
+    </article>
+
+    <article class="trip card">
+      <img src="images/trip-forest.jpg" alt="Forest-lined river with playful rapids" width="800" height="500" />
+      <div class="card__body">
+        <h2>River Forest Splash</h2>
+        <ul class="trip__facts">
+          <li><strong>Difficulty:</strong> Class III–IV</li>
+          <li><strong>Duration:</strong> Half day</li>
+          <li><strong>Price:</strong> $120 / person</li>
+        </ul>
+        <a class="btn btn--accent" href="contact.html">Reserve this Trip</a>
+      </div>
+    </article>
+
+    <article class="trip card">
+      <img src="images/trip-rapids.jpg" alt="Team navigating big whitewater" width="800" height="500" />
+      <div class="card__body">
+        <h2>Big Rapids Challenge</h2>
+        <ul class="trip__facts">
+          <li><strong>Difficulty:</strong> Class IV–V (experienced only)</li>
+          <li><strong>Duration:</strong> Full day</li>
+          <li><strong>Price:</strong> $195 / person</li>
+        </ul>
+        <a class="btn btn--accent" href="contact.html">Reserve this Trip</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="trips__table" aria-labelledby="table-heading">
+    <h2 id="table-heading">Trip Comparison</h2>
+    <div class="table-wrap">
+      <table>
+        <caption class="sr-only">Summary of trip difficulty, duration, and pricing</caption>
+        <thead>
+          <tr><th scope="col">Trip</th><th scope="col">Difficulty</th><th scope="col">Duration</th><th scope="col">Price</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Sunset Canyon Run</th><td>Class II–III</td><td>3 hours</td><td>$85</td></tr>
+          <tr><th scope="row">River Forest Splash</th><td>Class III–IV</td><td>Half day</td><td>$120</td></tr>
+          <tr><th scope="row">Big Rapids Challenge</th><td>Class IV–V</td><td>Full day</td><td>$195</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+  <footer>
+    <p>&copy; 2025 Riverrush Expeditions | Alejandro Vanderhorst</p>
+    <nav class="socialmedia">
+      <a href="#"><img src="images/facebook.png" alt="Facebook" class="icon"></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter" class="icon"></a>
+      <a href="#"><img src="images/instagram.png" alt="Instagram" class="icon"></a>
+    </nav>
+  </footer>
+</body>
+</html>
