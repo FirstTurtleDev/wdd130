@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Whitewater Rafting Co. with general inquiries, reservation questions, or website suggestions. Find our phone, email, address, and map.">
+  <meta name="author" content="Alejandro Vanderhorst">
+  <title>Whitewater Rafting Co. | Contact Us</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="images/my_logo.png" alt="Rafting Site Logo" class="logo">
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content" class="contact">
+  <h1>Contact Us</h1>
+
+  <section class="contact__grid" aria-labelledby="contact-info-heading">
+    <div class="contact__info">
+      <h2 id="contact-info-heading">Company Information</h2>
+      <address class="vcard">
+        <p class="org">Whitewater Rafting Co.</p>
+        <p class="adr">
+          <span class="street-address">123 River Run Rd</span><br />
+          <span class="locality">Jackson</span>,
+          <span class="region">WY</span>
+          <span class="postal-code">83001</span>
+        </p>
+        <p>
+          Phone: <a class="tel" href="tel:+13075550123">+1 (307) 555‑0123</a><br />
+          Email: <a class="email" href="mailto:info@whitewaterrafting.example">info@whitewaterrafting.example</a>
+        </p>
+      </address>
+
+      <div class="contact__map" aria-label="Our location on Google Maps">
+        <iframe
+          title="Whitewater Rafting Co. location"
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=123%20River%20Run%20Rd%20Jackson%20WY%2083001&output=embed">
+        </iframe>
+      </div>
+    </div>
+
+    <form class="contact__form" action="#" method="post" aria-describedby="form-help">
+      <h2>Send us a message</h2>
+
+      <div class="form__field">
+        <label for="fullname">Full name</label>
+        <input id="fullname" name="fullname" type="text" autocomplete="name" required />
+      </div>
+
+      <div class="form__field">
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" autocomplete="email" required />
+      </div>
+
+      <fieldset class="form__field" aria-describedby="purpose-help">
+        <legend>Purpose of your message</legend>
+        <p id="purpose-help" class="form__hint">Choose one option</p>
+        <div class="radio-group">
+          <label class="radio">
+            <input type="radio" name="purpose" value="general" required />
+            General Inquiry
+          </label>
+          <label class="radio">
+            <input type="radio" name="purpose" value="reservation" />
+            Reservation Question
+          </label>
+          <label class="radio">
+            <input type="radio" name="purpose" value="website" />
+            Website Suggestion
+          </label>
+        </div>
+      </fieldset>
+
+      <div class="form__field">
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
+
+      <div class="form__field form__inline">
+        <input id="subscribe" name="subscribe" type="checkbox" />
+        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+      </div>
+
+      <p id="form-help" class="form__hint">All fields marked required must be completed.</p>
+
+      <button class="btn btn--primary" type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section class="staff" aria-labelledby="staff-heading">
+    <h2 id="staff-heading">Meet our team</h2>
+    <div class="staff__grid">
+      <figure class="card">
+        <img src="images/staff-1.jpg" width="400" height="400" alt="Smiling river guide wearing a life jacket" />
+        <figcaption>
+          <span class="staff__name">Ava Thompson</span>
+          <span class="staff__title">Lead River Guide</span>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <img src="images/staff-2.jpg" width="400" height="400" alt="Friendly receptionist at the rafting lodge" />
+        <figcaption>
+          <span class="staff__name">Marco Reyes</span>
+          <span class="staff__title">Guest Services</span>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <img src="images/staff-3.jpg" width="400" height="400" alt="Safety coordinator giving a thumbs up" />
+        <figcaption>
+          <span class="staff__name">Sofia Park</span>
+          <span class="staff__title">Safety Coordinator</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+</main>
+
+  <footer>
+    <p>&copy; 2025 Riverrush Expeditions | Alejandro Vanderhorst</p>
+    <nav class="socialmedia">
+      <a href="#"><img src="images/facebook.png" alt="Facebook" class="icon"></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter" class="icon"></a>
+      <a href="#"><img src="images/instagram.png" alt="Instagram" class="icon"></a>
+    </nav>
+    <p class="wireframe-link">
+      <a href="https://example.com/contact-wireframe" target="_blank" rel="noopener">Contact Us Wireframe</a>
+    </p>
+  </footer>
+</body>
+</html>
