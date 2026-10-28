@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 130 portal page for Alejandro Vanderhorst">
+    <title>Alejandro Vanderhorst | WDD 130 Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="images/logo.png" alt="AV logo"></a>
+        <div>
+            <h1>Alejandro Vanderhorst</h1>
+            <p>WDD 130 - Web Fundamentals Portal</p>
+        </div>
+    </header>
+    <nav>
+        <a class="active" href="index.html">Home</a>
+        <a href="wwr/index.html">WWR</a>
+        <a href="ice.html">ICE</a>
+        <a href="about.html">About Me</a>
+    </nav>
+    <main>
+        <section class="hero">
+            <div>
+                <h2>Welcome to My Portal</h2>
+                <p>This page is the home for everything I build in WDD 130. Here you can find my Whitewater Rafting website, my ICE challenges, and a little bit about who I am. Each project shows a new skill I learned in HTML and CSS.</p>
+                <a class="button" href="#contact">Contact Me</a>
+            </div>
+            <img src="images/avatar.png" alt="Illustrated profile picture">
+        </section>
+
+        <section class="projects">
+            <h2>My Work</h2>
+            <div class="cards">
+                <article class="card">
+                    <img src="images/wwr-preview.png" alt="Preview of the Dry Oar rafting website">
+                    <h3>Whitewater Rafting</h3>
+                    <p>A multi-page website for Dry Oar, a rafting company, built with grid and flexbox.</p>
+                    <a href="wwr/index.html">View WWR</a>
+                </article>
+                <article class="card">
+                    <img src="images/ice-preview.png" alt="Preview of the prophet card ICE challenge">
+                    <h3>ICE Challenges</h3>
+                    <p>Small in-class exercises where I practiced new HTML and CSS skills.</p>
+                    <a href="ice.html">View ICE</a>
+                </article>
+                <article class="card">
+                    <img src="images/avatar.png" alt="Illustrated profile picture">
+                    <h3>About Me</h3>
+                    <p>Learn about my background, my goals, and why I enjoy web design.</p>
+                    <a href="about.html">View About Me</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Skills I Am Learning</h2>
+            <ul>
+                <li>Semantic HTML structure</li>
+                <li>CSS colors, fonts, and the box model</li>
+                <li>Page layout with grid and flexbox</li>
+                <li>Responsive design with media queries</li>
+                <li>Validating HTML and CSS</li>
+            </ul>
+        </section>
+
+        <section class="schedule">
+            <h2>Course Progress</h2>
+            <table>
+                <caption>Portal page progress checks</caption>
+                <thead>
+                    <tr>
+                        <th>Check</th>
+                        <th>Topic</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>100</td>
+                        <td>Plan and Design</td>
+                        <td>Done</td>
+                    </tr>
+                    <tr>
+                        <td>200</td>
+                        <td>Convert to HTML</td>
+                        <td>Done</td>
+                    </tr>
+                    <tr>
+                        <td>300</td>
+                        <td>Convert to CSS</td>
+                        <td>Done</td>
+                    </tr>
+                    <tr>
+                        <td>Final</td>
+                        <td>About page and finishing touches</td>
+                        <td>Done</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Send a message</legend>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                    <input type="submit" value="Send">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Alejandro Vanderhorst - WDD 130</p>
+        <p><a href="design.html">Design Document</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Design Document | Alejandro Vanderhorst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: "Open Sans", Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; color: #1B263B; }
+        h1, h2 { font-family: Poppins, Arial, sans-serif; }
+        .swatches { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+        .swatch { height: 90px; border: 1px solid #999; }
+        .swatch-label { text-align: center; font-size: 14px; }
+        img { max-width: 100%; }
+    </style>
+</head>
+<body>
+    <h1>Portal Page Design Document</h1>
+    <p>Alejandro Vanderhorst - WDD 130</p>
+
+    <h2>Purpose</h2>
+    <p>The portal page collects all of my WDD 130 work in one place: the Whitewater Rafting (WWR) site, my ICE challenges, and an About Me page. It should look clean and professional so I can keep using it as a portfolio.</p>
+
+    <h2>Logo</h2>
+    <img src="images/logo.png" alt="AV monogram logo" width="150">
+    <p>A simple monogram with my initials in a navy circle with an orange ring.</p>
+
+    <h2>Color Scheme</h2>
+    <div class="swatches">
+        <div><div class="swatch" style="background:#1B263B"></div><p class="swatch-label">Navy #1B263B<br>header, footer, text</p></div>
+        <div><div class="swatch" style="background:#415A77"></div><p class="swatch-label">Steel Blue #415A77<br>nav, cards</p></div>
+        <div><div class="swatch" style="background:#778DA9"></div><p class="swatch-label">Slate #778DA9<br>borders, accents</p></div>
+        <div><div class="swatch" style="background:#E0E1DD"></div><p class="swatch-label">Light Gray #E0E1DD<br>page background</p></div>
+        <div><div class="swatch" style="background:#F4A261"></div><p class="swatch-label">Orange #F4A261<br>buttons, hover</p></div>
+    </div>
+
+    <h2>Fonts</h2>
+    <p style="font-family: Poppins, Arial, sans-serif; font-size: 24px;">Headings: Poppins (Google Fonts), fallback Arial</p>
+    <p>Body text: Open Sans (Google Fonts), fallback Arial</p>
+
+    <h2>Wireframe</h2>
+    <p>Layout: header with logo and title, navigation bar (Home, WWR, ICE, About Me), main with a hero section, three project cards in a grid, a skills list next to a schedule table, a contact form, and a footer.</p>
+    <img src="wireframe.png" alt="Labeled wireframe of the portal home page">
+</body>
+</html>
