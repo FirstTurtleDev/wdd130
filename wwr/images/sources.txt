@@ -1,0 +1,11 @@
+Logo, icons, wireframe, and alternative rafting photos: WDD 130 course resources
+https://byui-wdd.github.io/wdd130/resources/dryoarimages.html
+Hero: rafting10_1024.jpg
+Rivers: rafting58_600.jpg
+Rapids: rafting42_600.jpg
+
+Camping: Benji Scott, Pexels (free to use)
+https://www.pexels.com/photo/tent-in-a-mountain-valley-19739010/
+
+Mountains: eberhard grossgasteiger, Pexels
+https://www.pexels.com/photo/landscape-photography-of-mountain-1366919/
